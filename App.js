@@ -4,11 +4,15 @@ import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
 import { Constants } from 'expo';
 
 const FirstRoute = () => (
-  <View style={[styles.scene, { backgroundColor: '#ff4081' }]} />
+  <View style={[styles.scene, { backgroundColor: '#ff4081' }]}>
+      <Text>First</Text>
+  </View>
 );
 
 const SecondRoute = () => (
-  <View style={[styles.scene, { backgroundColor: '#673ab7' }]} />
+  <View style={[styles.scene, { backgroundColor: '#673ab7' }]}>
+      <Text>Second</Text>
+  </View>
 );
 
 // This is our placeholder component for the tabs
@@ -53,7 +57,7 @@ export default class TabViewExample extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: StatusBar.currentHeight,
+    marginTop: 50,
   },
   scene: {
     flex: 1,
