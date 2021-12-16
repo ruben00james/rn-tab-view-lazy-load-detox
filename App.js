@@ -5,13 +5,13 @@ import { Constants } from 'expo';
 
 const FirstRoute = () => (
   <View style={[styles.scene, { backgroundColor: '#ff4081' }]}>
-      <Text>First</Text>
+      <Text>Item 1</Text>
   </View>
 );
 
 const SecondRoute = () => (
   <View style={[styles.scene, { backgroundColor: '#673ab7' }]}>
-      <Text>Second</Text>
+      <Text>Item 2</Text>
   </View>
 );
 
